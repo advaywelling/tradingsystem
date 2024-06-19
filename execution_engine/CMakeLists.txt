@@ -4,3 +4,5 @@ add_library(execution_engine
 )
 
 target_include_directories(execution_engine PUBLIC include)
+find_package(CURL REQUIRED)
+target_link_libraries(execution_engine CURL::libcurl)
