@@ -10,7 +10,7 @@
 #include <chrono>
 
 int main() {
-    // Initialize components
+    
     MarketDataHandler marketDataHandler;
     StrategyEngine strategyEngine(5, 20);
     OrderManagementSystem orderManagementSystem;
@@ -32,7 +32,6 @@ int main() {
 
     marketDataHandler.start();
 
-    // Run for a short period to simulate trading activity
     std::this_thread::sleep_for(std::chrono::seconds(5));
     marketDataHandler.stop();
     return 0;
