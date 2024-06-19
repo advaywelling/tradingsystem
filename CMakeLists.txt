@@ -12,7 +12,6 @@ add_subdirectory(latency_monitoring)
 add_subdirectory(app)
 add_subdirectory(tests)
 
-# Manually specify the location of Google Test
 set(GTEST_ROOT /opt/homebrew/Cellar/googletest/1.14.0)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
