@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc librisk_management.a CMakeFiles/risk_management.dir/src/RiskManagement.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib librisk_management.a

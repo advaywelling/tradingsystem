@@ -1,0 +1,5 @@
+if(EXISTS "/Users/advaywelling/Purdue/CS files/Algo Trading/tests/test_market_data[1]_tests.cmake")
+  include("/Users/advaywelling/Purdue/CS files/Algo Trading/tests/test_market_data[1]_tests.cmake")
+else()
+  add_test(test_market_data_NOT_BUILT test_market_data_NOT_BUILT)
+endif()

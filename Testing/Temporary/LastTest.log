@@ -1,0 +1,99 @@
+Start testing: Jun 09 22:50 IST
+----------------------------------------------------------
+Unable to find executable: test_market_data_NOT_BUILT
+1/6 Testing: test_market_data_NOT_BUILT
+1/6 Test: test_market_data_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_market_data_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_market_data_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_market_data_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: test_strategy_engine_NOT_BUILT
+2/6 Testing: test_strategy_engine_NOT_BUILT
+2/6 Test: test_strategy_engine_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_strategy_engine_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_strategy_engine_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_strategy_engine_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: test_order_management_NOT_BUILT
+3/6 Testing: test_order_management_NOT_BUILT
+3/6 Test: test_order_management_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_order_management_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_order_management_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_order_management_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: test_execution_engine_NOT_BUILT
+4/6 Testing: test_execution_engine_NOT_BUILT
+4/6 Test: test_execution_engine_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_execution_engine_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_execution_engine_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_execution_engine_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: test_risk_management_NOT_BUILT
+5/6 Testing: test_risk_management_NOT_BUILT
+5/6 Test: test_risk_management_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_risk_management_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_risk_management_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_risk_management_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: test_latency_monitoring_NOT_BUILT
+6/6 Testing: test_latency_monitoring_NOT_BUILT
+6/6 Test: test_latency_monitoring_NOT_BUILT
+Command: ""
+Directory: /Users/advaywelling/Purdue/CS files/Algo Trading/tests
+"test_latency_monitoring_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_latency_monitoring_NOT_BUILT" end time: Jun 09 22:50 IST
+"test_latency_monitoring_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 09 22:50 IST

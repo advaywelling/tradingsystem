@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libexecution_engine.a CMakeFiles/execution_engine.dir/src/ExecutionEngine.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libexecution_engine.a

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/test_strategy_engine.dir/strategy_engine_tests/test_strategy_engine.cpp.o -o test_strategy_engine  -lpthread ../strategy_engine/libstrategy_engine.a

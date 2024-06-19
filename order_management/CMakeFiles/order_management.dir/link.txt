@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liborder_management.a CMakeFiles/order_management.dir/src/OrderManagementSystem.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liborder_management.a

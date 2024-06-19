@@ -1,0 +1,31 @@
+# tests/CMakeLists.txt
+
+# Enable testing
+enable_testing()
+
+# Add test executables and link with Google Test
+add_executable(test_market_data market_data_tests/test_market_data.cpp)
+target_link_libraries(test_market_data ${GTEST_LIBRARIES} pthread market_data)
+
+add_executable(test_strategy_engine strategy_engine_tests/test_strategy_engine.cpp)
+target_link_libraries(test_strategy_engine ${GTEST_LIBRARIES} pthread strategy_engine)
+
+add_executable(test_order_management order_management_tests/test_order_management.cpp)
+target_link_libraries(test_order_management ${GTEST_LIBRARIES} pthread order_management)
+
+add_executable(test_execution_engine execution_engine_tests/test_execution_engine.cpp)
+target_link_libraries(test_execution_engine ${GTEST_LIBRARIES} pthread execution_engine)
+
+add_executable(test_risk_management risk_management_tests/test_risk_management.cpp)
+target_link_libraries(test_risk_management ${GTEST_LIBRARIES} pthread risk_management)
+
+add_executable(test_latency_monitoring latency_monitoring_tests/test_latency_monitoring.cpp)
+target_link_libraries(test_latency_monitoring ${GTEST_LIBRARIES} pthread latency_monitoring)
+
+include(GoogleTest)
+gtest_discover_tests(test_market_data)
+gtest_discover_tests(test_strategy_engine)
+gtest_discover_tests(test_order_management)
+gtest_discover_tests(test_execution_engine)
+gtest_discover_tests(test_risk_management)
+gtest_discover_tests(test_latency_monitoring)

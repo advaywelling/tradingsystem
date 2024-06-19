@@ -1,0 +1,5 @@
+if(EXISTS "/Users/advaywelling/Purdue/CS files/Algo Trading/tests/test_strategy_engine[1]_tests.cmake")
+  include("/Users/advaywelling/Purdue/CS files/Algo Trading/tests/test_strategy_engine[1]_tests.cmake")
+else()
+  add_test(test_strategy_engine_NOT_BUILT test_strategy_engine_NOT_BUILT)
+endif()
